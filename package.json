@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "@mdx-js/mdx": "^1.5.1",
+    "@mdx-js/react": "^1.5.1",
+    "gatsby": "^2.17.4",
+    "gatsby-cli": "^2.8.8",
+    "gatsby-plugin-mdx": "^1.0.56",
+    "gatsby-plugin-react-helmet": "^3.1.14",
+    "gatsby-plugin-stylus": "^2.1.16",
+    "gatsby-source-filesystem": "^2.1.36",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-helmet": "^5.2.1"
+  }
+}

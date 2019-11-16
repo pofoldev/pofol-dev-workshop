@@ -1,0 +1,114 @@
+
+## 레이아웃
+지금까지 만든 HTML 파일을 열면 다음 처럼 보일겁니다.
+[스크린샷]()
+
+
+## block, inline
+```
+<span>inline</span>
+<span>inline</span>
+<span>inline</span>
+
+
+<div>block</div>
+<div>block</div>
+<div>block</div>
+```
+
+<div>
+    <span>inline</span>
+    <span>inline</span>
+    <span>inline</span>
+</div>
+<div>
+    <div>block</div>
+    <div>block</div>
+    <div>block</div>
+</div>
+
+## position
+
+
+## 박스 모델 Box Model
+### width, height
+```
+<div style="width: 300px; height: 200px; border: 2px solid black;">
+BOX
+</div>
+```
+<div style="width: 300px; height: 200px; border: 2px solid black;">
+BOX
+</div>
+
+
+### padding, margin
+<div style="border: 2px solid black">
+    <div style="
+        width: 300px;
+        height: 200px;
+        border: 2px solid black;
+        padding: 20px;
+        margin: 20px;
+    ">
+    BOX
+    </div>
+</div>
+
+### box-sizing
+<div style="
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+    box-sizing: border-box;
+">
+    BOX
+</div>
+
+
+## 특수한 태그 div
+div는 그 자체로 눈에 보이지는 않고 문서의 부분을 나눠주는 태그입니다.
+특히 배치를 위해 페이지를 나눌 때 용이합니다.
+
+```
+<div>
+
+</div>
+``` 
+ 
+## 의미에 맞는 (Semantic) 태그들
+section, header, nav, main, aside ...
+
+
+## Flex Layout
+Flex는 페이지를 배치하는 방법 중 하나 입니다.
+
+```
+display: flex;
+```
+
+방향
+```
+flex-direction: column;
+flex-direction: row;
+```
+
+
+```
+justify-content: center;
+justify-content: space-between;
+justify-content: space-around;
+```
+
+```
+align-items: center;
+align-items: stretch;
+```
+
+
+```
+flex-grow: 1;
+flex-shrink: 1;
+```

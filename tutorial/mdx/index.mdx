@@ -1,0 +1,28 @@
+
+
+```
+const path = require('path')
+
+
+module.exports = {
+    plugins: [
+        `gatsby-plugin-stylus`,
+        `gatsby-plugin-react-helmet`,
+        {
+            resolve: `gatsby-source-filesystem`,
+            options: {
+                name: `works`,
+                path: `${__dirname}/works/`
+            }
+        },
+        {
+            resolve: `gatsby-plugin-mdx`,
+            options: {
+                defaultLayouts: {
+                    tutorials: require.resolve('./src/layouts/works.js')
+                }
+            }
+        }
+    ]
+}
+```
